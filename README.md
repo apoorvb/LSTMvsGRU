@@ -5,6 +5,7 @@ This was done to compare their level of accuracies and loss.
 2 Versions of these models were used. 
 Difference between models is the output ldimension of the embedding layer.
 It is usually suggested that the range of values for this layer should be between 100-300, that is why i took 2 values, <100 and >100.
+output_dim gives the length of embedding vector in the vector space. It is an hyper parameter.
 imdb Dataset that comes along with keras was used.
 
 
